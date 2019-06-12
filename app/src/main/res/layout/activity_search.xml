@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".search">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/place1"
+        android:background="@drawable/back"
+        android:text="PLACE1 \n(2.1 mile)(60%available)(hourly rate 15)        5* "
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="20sp"
+        android:textFontWeight="20"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/place2"
+        android:background="@drawable/back"
+        android:text="PLACE2 \n(2.1 mile)(60%available)(hourly rate 15)       5* "
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        android:textFontWeight="20"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/place3"
+        android:background="@drawable/back"
+        android:text="PLACE3 \n(2.1 mile)(60%available)(hourly rate 15)        5* "
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        android:textFontWeight="20"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/place4"
+        android:background="@drawable/back"
+        android:text="PLACE4 \n(2.1 mile)(60%available)(hourly rate 15)        5* "
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        android:textFontWeight="20"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/place5"
+        android:background="@drawable/back"
+        android:text="PLACE5 \n(2.1 mile)(60%available)(hourly rate 15)        5* "
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        android:textFontWeight="20"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:id="@+id/place6"
+        android:text="PLACE6 \n(2.1 mile)(60%available)(hourly rate 15)        5* "
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        android:textFontWeight="20"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/place7"
+        android:background="@drawable/back"
+        android:text="PLACE7 \n(2.1 mile)(60%available)(hourly rate 15)        5* "
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        android:textFontWeight="20"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:id="@+id/place8"
+        android:text="PLACE8 \n(2.1 mile)(60%available)(hourly rate 15)             5* "
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="10sp"
+        android:textFontWeight="20"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:layout_width="50sp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="10sp"
+            android:id="@+id/im1"
+            android:src="@drawable/ic_event_note_black_24dp"
+            />
+        <ImageButton
+            android:layout_marginLeft="10sp"
+            android:layout_width="50sp"
+            android:id="@+id/im2"
+            android:layout_height="40sp"
+            android:src="@drawable/ic_search_black_24dp"
+            />
+        <ImageButton
+            android:id="@+id/im3"
+            android:layout_marginLeft="10sp"
+            android:layout_width="50sp"
+            android:layout_height="40sp"
+            android:src="@drawable/ic_location_on_black_24dp"
+            />
+        <ImageButton
+            android:id="@+id/im4"
+            android:layout_marginLeft="10sp"
+            android:layout_width="50sp"
+            android:layout_height="40sp"
+            android:src="@drawable/ic_account_balance_wallet_black_24dp"
+            />
+        <ImageButton
+            android:id="@+id/im5"
+            android:layout_marginLeft="10sp"
+            android:layout_width="50sp"
+            android:layout_height="40sp"
+            android:src="@drawable/ic_person_black_24dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
